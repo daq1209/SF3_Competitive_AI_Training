@@ -1,0 +1,12 @@
+# Bỏ qua môi trường ảo (đã bị xóa, nhưng nếu tạo lại thì vẫn bỏ)
+venv/
+
+# Bỏ qua thư mục logs (rất nhiều file nhỏ)
+logs/
+
+# Bỏ qua các model đã train (thường rất nặng)
+*.zip 
+*.pt
+
+# Bỏ qua các file tạm thời của Python
+__pycache__/
